@@ -1,1 +1,0 @@
-# ARQUIVO REMOVIDO - Use BUILD_RUN.bat para Windows
