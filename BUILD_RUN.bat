@@ -11,7 +11,7 @@ echo.
 REM Verifica se Maven está instalado
 mvn -v >nul 2>&1
 if errorlevel 1 (
-    echo. ❌ Maven não encontrado. Instale o Maven para continuar.
+    echo. Maven não encontrado. Instale o Maven para continuar.
     exit /b 1
 )
 
@@ -20,14 +20,14 @@ echo ==========================================
 mvn clean package -DskipTests
 
 if errorlevel 1 (
-    echo. ❌ Erro na compilação
+    echo.  Erro na compilação
     exit /b 1
 )
 
 echo.
-echo ✅ Compilação bem-sucedida!
+echo  Compilação bem-sucedida!
 echo.
-echo 🚀 Iniciando aplicação JavaFX...
+echo  Iniciando aplicação JavaFX...
 echo ==========================================
 
 REM Executa a aplicação
