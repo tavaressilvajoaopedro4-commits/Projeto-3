@@ -15,7 +15,7 @@ if errorlevel 1 (
     exit /b 1
 )
 
-echo 📦 Compilando projeto com Maven...
+echo Compilando projeto com Maven...
 echo ==========================================
 mvn clean package -DskipTests
 
